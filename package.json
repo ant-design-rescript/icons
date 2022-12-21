@@ -1,0 +1,43 @@
+{
+  "name": "@ant-design-rescript/icons",
+  "version": "0.0.1",
+  "description": "ReScript bindings for @ant-design/icons",
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi"
+  ],
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean -with-deps",
+    "test": "echo 'tests disabled for now'"
+  },
+  "keywords": [
+    "rescript",
+    "react",
+    "ant-design",
+    "ant-design-icons"
+  ],
+  "author": "Limit Liu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant-design-rescript/icons.git"
+  },
+  "homepage": "https://github.com/ant-design-rescript/icons",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "rescript": "^10.1.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@ant-design/icons": "^4.8.0"
+  }
+}
