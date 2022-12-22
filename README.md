@@ -28,7 +28,7 @@ open AntDesignRescriptIcons.Icons
 
 @react.component
 let make = () => {
-  <Outlined.MenuUnfold />
+  <Outlined.Star />
 }
 ```
 
@@ -39,6 +39,17 @@ open AntDesignRescriptIcons.Icons
 
 @react.component
 let make = () => {
-  <Filled.CloseCircle />
+  <Filled.Star />
+}
+```
+
+### TwoTone
+
+```rescript
+open AntDesignRescriptIcons.Icons
+
+@react.component
+let make = () => {
+  <TwoTone.Star twoToneColor="#eb2f96" />
 }
 ```
